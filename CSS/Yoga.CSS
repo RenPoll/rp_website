@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+	}
+
+body {
+    font-family:Verdana;
+    background:#fff5ee;
+    color:#000;
+    padding:20px;
+	}
+
+nav ul {
+    display:flex;
+    background-color:#333;
+    padding:15px;
+	}
+
+nav ul li {
+    list-style: none;
+    margin:0 20px;
+	}
+
+nav ul li:hover {
+	background-color:#555;
+	color:#fff;
+	}
+nav ul li a {
+    color: white;
+    text-decoration:none;
+    font-size:1.15rem;
+	}
+
+nav ul li a:hover {
+    text-decoration:underline;
+	}
+
+main {
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-gap:25px;
+	}
+
+header {
+    background-color:#e37383;
+    color:white;
+    padding:20px;
+    text-align:center;
+	font-family:Arial;
+	}
+
+h1 {
+    font-size:3rem;
+    margin-bottom:10px;
+	}
+
+h2 {
+    background-color:#e37383;
+    color:white;
+    padding:10px;
+    border-radius:5px;
+	text-align:center;
+	}
+
+section {
+    background-color:#fff;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0px 0px 10px #d3d3d3;
+	}
+#image1 {
+	width:140px;
+	padding:5px;
+	margin:0 auto;
+	}
+
+#image2 {
+	width:155px;
+	padding:5px;
+	margin:0 auto;
+	}
+
+ul {
+    margin-left:20px;
+	}
+
+table {
+    width:100%;
+    border-collapse:collapse;
+    margin-top:20px;
+	}
+
+table, th, td {
+    border:1px solid #ddd;
+	padding:10px;
+    text-align:center;
+	}
+
+th {
+    background-color:#f47f6a;
+    color: white;
+	}
+
+form label {
+    font-weight:bold;
+	}
+
+form input[type], input[id], select {
+    height:25px;
+	font-size:1.10rem;
+	border:1px solid #ddd;
+	}
+	
+footer {
+    text-align: center;
+    padding:20px;
+    background-color:#333;
+    color: white;
+    margin-top:20px;
+	bottom:0px;
+	}
